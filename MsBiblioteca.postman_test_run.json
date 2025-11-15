@@ -1,0 +1,150 @@
+{
+	"id": "0fb58635-875e-413a-ac7d-a6e72d092a01",
+	"name": "MsBiblioteca",
+	"timestamp": "2025-11-15T13:30:45.701Z",
+	"collection_id": "45138184-27f351c7-f387-405a-b4bc-ff3fdb0de484",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2025-11-15T13:30:43.828Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "38b458b6-9c5b-435b-8828-950c412b060d",
+			"name": "listar",
+			"url": "https://template.postman-echo.com/info?id=1",
+			"time": 384,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				384
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5d40cacf-805a-4da5-9702-62d7ea2c73a4",
+			"name": "crear",
+			"url": "https://template.postman-echo.com/info",
+			"time": 99,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				99
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "713c4279-d300-4cde-b2c2-8d3e6c865f41",
+			"name": "Actualizar",
+			"url": "https://template.postman-echo.com/info?id=1",
+			"time": 103,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful PUT request": true
+			},
+			"testPassFailCounts": {
+				"Successful PUT request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				103
+			],
+			"allTests": [
+				{
+					"Successful PUT request": true
+				}
+			]
+		},
+		{
+			"id": "7098880f-6424-40c6-832a-9b839086bef4",
+			"name": "Delete data",
+			"url": "https://template.postman-echo.com/info?id=1",
+			"time": 121,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful DELETE request": true
+			},
+			"testPassFailCounts": {
+				"Successful DELETE request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				121
+			],
+			"allTests": [
+				{
+					"Successful DELETE request": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 707,
+	"collection": {
+		"requests": [
+			{
+				"id": "38b458b6-9c5b-435b-8828-950c412b060d",
+				"method": "GET"
+			},
+			{
+				"id": "5d40cacf-805a-4da5-9702-62d7ea2c73a4",
+				"method": "POST"
+			},
+			{
+				"id": "713c4279-d300-4cde-b2c2-8d3e6c865f41",
+				"method": "PUT"
+			},
+			{
+				"id": "7098880f-6424-40c6-832a-9b839086bef4",
+				"method": "DELETE"
+			},
+			{
+				"id": "99431a48-5e9e-47c7-9008-04f26e4fc245",
+				"method": "GET"
+			}
+		]
+	}
+}
